@@ -41,6 +41,16 @@ h3 {
     margin-top: 10px;
 }
 
+div.rounded-container {
+    transition: background-color 0.3s ease;
+}
+
+div.rounded-container:hover {
+    transition: background-color #f2f2f2;
+}
+
+
+
 hr {
     height: .25em;
     padding: 0;
