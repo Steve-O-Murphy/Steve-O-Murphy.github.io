@@ -1,129 +1,162 @@
 <link rel="stylesheet" href="./styles/style.css">
-<div class="rounded-container">
-    <h1 id="steve-murphy">Steve Murphy</h1>
-        <p>Senior Technical Writer | API and SDK Programmer Writer | Open Source Contributor | Automation Specialist</p>
-        <p><a href="https://www.linkedin.com/in/stevemurphy1/">LinkedIn Profile</a> | <a href="#writing-samples">Writing Samples</a> | <a href="#technical-skills">Technical Skills</a> |<a href="#sample-applications">Applications, Tools, Sample Code</a> | <a href="#key-achievements">Achievements</a> | <a href="#education">Education</a> | <a href="#professional-recommendations">Recommendations</a></p>
-        <!-- <hr> -->
-    <h2 id="summary">Summary</h2>
-        <ul>
-            <li>Senior technical writer with a love of technology and a passion for excellence and customer success.</li>
-            <li>Relationship builder and conflict manager.</li>
-            <li>Cross-team collaborator.</li>
-        </ul>
-</div>
-<div class="rounded-container">
-    <h2 id="writing-samples">Writing Samples</h2>
-    <h3 id="api-guides">API Guides</h3>
-        <ul>
-            <li><a href="/samples/API_Reference_Restrictions.pdf">Restrictions API</a></li>
-            <li><a href="/samples/SmartPurge_REST_API_User_Guide.pdf">SmartPurge API</a></li>
-            <li><a href="/samples/Origin_Storage_API_Reference_Guide.pdf">Origin Storage API</a></li>
-            <li><a href="/samples/Video_Analytics_API_Developers_Reference.pdf">Video Content API Developers Reference</a></li>
-        </ul>
-    <h3 id="sdk-guides">SDK Guides</h3>
-        <ul>
-            <li>Edgio Realtime Streaming Android and iOS Guides</li>
-            <li>Netspend Andriod, iOS, and HTML Guides</li>
-        </ul>
-    <h3 id="user-guides">User Guides</h3>
-        <ul>
-            <li><a href="/samples/Control_User_Guide.pdf">Control User Guide</a></li>
-            <li><a href="/samples/MMD_Live_Streaming_Guide_v3.0.pdf">MMD Live Streaming Guide</a></li>
-            <li><a href="/samples/Storage_Management_Console_User_Guide.pdf">Storage Management Console</a></li>
-        </ul>
-    <h3 id="knowledge-articles">Knowledge Articles</h3>
-        <ul>
-            <li><a href="/samples/GraphQL.pdf">GraphQL</a></li>
-            <li><a href="/samples/OAuth_Blog_Article-Part-1.pdf">OAuth</a></li>
-        </ul>
-</div>
-<div class="rounded-container">
-    <h2 id="technical-skills">Technical Skills</h2>
-    <p class="p-no-space-before"><a href="#authoring">Authoring</a> | <a href="#languages-and-ides">Languages and IDEs</a> | <a href="#build-tools">Build Tools</a> | <a href="#repositories-and-issue-trackers">Repositories and Issue Trackers</a></p>
-    <h3 id="authoring">Authoring</h3>
-        <ul>
-            <li>Hand-coded HTML and CSS</li>
-            <li>Jekyll Static-Site Generator</li>
-            <li>LucidChart</li>
-            <li>MadCap Flare</li>
-            <li>Markdown</li>
-            <li>OpenAPI Specification</li>
-            <li>PlantUML</li>
-            <li>Readme.io</li>
-        </ul>
-    <h3 id="languages-and-ides">Languages and IDEs</h3>
-        <ul>
-            <li>C#</li>
-            <li>cURL</li>
-            <li>Eclipse</li>
-            <li>IntelliJ</li>
-            <li>Java</li>
-            <li>Google Apps Script</li>
-            <li>PyCharm</li>
-            <li>Python</li>
-        </ul>
-    <h3 id="build-tools">Build Tools</h3>
-        <ul>
-            <li>Gradle</li>
-            <li>Maven</li>
-            <li>sbt</li>
-        </ul>
-    <h3 id="repositories-and-issue-trackers">Repositories and Issue Trackers</h3>
-        <ul>
-            <li>Confluence</li>
-            <li>Jira</li>
-        </ul>
-</div>
-<div class="rounded-container">
-    <h2 id="application-development">Application Development</h2>
-    <h3 id="web-application-frameworks">Web Application Frameworks</h3>
-        <ul>
-            <li>JQuery/JQuery UI</li>
-            <li>Next.js (hobbyist level)</li>
-            <li>React (hobbyist level)</li>
-        </ul>
-    <h3 id="sample-applications">Sample Applications</h3>
-        <ul>
-            <li>A JQuery UI application that uploads a file to Edgio&#39;s Storage Platform</li>
-            <li>A Python application that demonstrates the Log Delivery Service API</li>
-        </ul>
-    <h3 id="automation-tools">Automation Tools</h3>
-        <ul>
-            <li>A Java FX/Maven application that reads sbt, Gradle, and Maven dependency trees then distills tree data and transforms it into a format easily pasted into a Google sheet</li>
-            <li>JQuery UI applications that create tables in:
+
+
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'summary-tab')">Summary</button>
+    <button class="tablinks" onclick="openTab(event, 'writing-samples-tab')">Writing Samples</button>
+    <button class="tablinks" onclick="openTab(event, 'technical-skills-tab')">Technical Skills</button>
+    <button class="tablinks" onclick="openTab(event, 'app-development-tab')">Application Development</button>
+    <button class="tablinks" onclick="openTab(event, 'key-achievements-tab')">Key Achievements</button>
+    <button class="tablinks" onclick="openTab(event, 'education-tab')">Education</button>
+    <button class="tablinks" onclick="openTab(event, 'prof-reccos-tab')">Recommendations</button>
+  </div>
+  
+
+    <div id="summary-tab" class="tabcontent">
+        <div class="rounded-container">
+            <h1 id="steve-murphy">Steve Murphy</h1>
+                <p>Senior Technical Writer | API and SDK Programmer Writer | Open Source Contributor | Automation Specialist</p>
+                <p><a href="https://www.linkedin.com/in/stevemurphy1/">LinkedIn Profile</a> | <a href="#writing-samples">Writing Samples</a> | <a href="#technical-skills">Technical Skills</a> |<a href="#sample-applications">Applications, Tools, Sample Code</a> | <a href="#key-achievements">Achievements</a> | <a href="#education">Education</a> | <a href="#professional-recommendations">Recommendations</a></p>
+                <!-- <hr> -->
+            <h2 id="summary">Summary</h2>
                 <ul>
-                    <li>Readme.io format.</li>
-                    <li>SiriusXM&#39;s proprietary JSON format.</li>
+                    <li>Senior technical writer with a love of technology and a passion for excellence and customer success.</li>
+                    <li>Relationship builder and conflict manager.</li>
+                    <li>Cross-team collaborator.</li>
                 </ul>
-            </li>
-            <li>A MadCap Flare plugin that converts selected text to all upper, all  lower, and title case.</li>
-            <li>A C#/Jira REST API Application that creates HTML release notes files in Edgio&#39;s standard format. Files can be easily added to a MadCap Flare project.</li>
-        </ul>
-    <h3 id="sample-code">Sample Code</h3>
-        <p>All cURL and Python samples in the <a href="/samples/Origin_Storage_API_Reference_Guide.pdf">Origin Storage API Reference Guide</a></p>
-</div>
-<div class="rounded-container">
-    <h2 id="key-achievements">Key Achievements</h2>
-        <ul>
-            <li>Authored and maintained style guides and processes</li>
-            <li>Improved documentation access and structure</li>
-            <li>Created automation tools</li>
-        </ul>
-</div>
-<div class="rounded-container">
-    <h2 id="education">Education</h2>
-        <ul>
-            <li><p>University of Colorado at Boulder
-            Bachelor of Arts: French</p>
-            </li>
-            <li><p>University of Pennsylvania Computer Science Certificates Through edX
-            Software Development Fundamentals,
-            Data Structures and Software Design
-            Programming for the Web</p>
-            </li>
-        </ul>
-</div>
-<div class="rounded-container">
-    <h2 id="professional-recommendations">Professional Recommendations</h2>
-        <p><a href="https://www.linkedin.com/in/stevemurphy1/details/recommendations/?detailScreenTabIndex=0">LinkedIn</a></p>
-</div>
+        </div>
+    </div> 
+    
+    <div id="writing-samples-tab" class="tabcontent">
+        <div class="rounded-container">
+            <h2 id="writing-samples">Writing Samples</h2>
+            <h3 id="api-guides">API Guides</h3>
+                <ul>
+                    <li><a href="/samples/API_Reference_Restrictions.pdf">Restrictions API</a></li>
+                    <li><a href="/samples/SmartPurge_REST_API_User_Guide.pdf">SmartPurge API</a></li>
+                    <li><a href="/samples/Origin_Storage_API_Reference_Guide.pdf">Origin Storage API</a></li>
+                    <li><a href="/samples/Video_Analytics_API_Developers_Reference.pdf">Video Content API Developers Reference</a></li>
+                </ul>
+            <h3 id="sdk-guides">SDK Guides</h3>
+                <ul>
+                    <li>Edgio Realtime Streaming Android and iOS Guides</li>
+                    <li>Netspend Andriod, iOS, and HTML Guides</li>
+                </ul>
+            <h3 id="user-guides">User Guides</h3>
+                <ul>
+                    <li><a href="/samples/Control_User_Guide.pdf">Control User Guide</a></li>
+                    <li><a href="/samples/MMD_Live_Streaming_Guide_v3.0.pdf">MMD Live Streaming Guide</a></li>
+                    <li><a href="/samples/Storage_Management_Console_User_Guide.pdf">Storage Management Console</a></li>
+                </ul>
+            <h3 id="knowledge-articles">Knowledge Articles</h3>
+                <ul>
+                    <li><a href="/samples/GraphQL.pdf">GraphQL</a></li>
+                    <li><a href="/samples/OAuth_Blog_Article-Part-1.pdf">OAuth</a></li>
+                </ul>
+        </div>
+    </div>
+
+    <div id="technical-skills-tab" class="tabcontent">
+        <div class="rounded-container">
+            <h2 id="technical-skills">Technical Skills</h2>
+            <p class="p-no-space-before"><a href="#authoring">Authoring</a> | <a href="#languages-and-ides">Languages and IDEs</a> | <a href="#build-tools">Build Tools</a> | <a href="#repositories-and-issue-trackers">Repositories and Issue Trackers</a></p>
+            <h3 id="authoring">Authoring</h3>
+                <ul>
+                    <li>Hand-coded HTML and CSS</li>
+                    <li>Jekyll Static-Site Generator</li>
+                    <li>LucidChart</li>
+                    <li>MadCap Flare</li>
+                    <li>Markdown</li>
+                    <li>OpenAPI Specification</li>
+                    <li>PlantUML</li>
+                    <li>Readme.io</li>
+                </ul>
+            <h3 id="languages-and-ides">Languages and IDEs</h3>
+                <ul>
+                    <li>C#</li>
+                    <li>cURL</li>
+                    <li>Eclipse</li>
+                    <li>IntelliJ</li>
+                    <li>Java</li>
+                    <li>Google Apps Script</li>
+                    <li>PyCharm</li>
+                    <li>Python</li>
+                </ul>
+            <h3 id="build-tools">Build Tools</h3>
+                <ul>
+                    <li>Gradle</li>
+                    <li>Maven</li>
+                    <li>sbt</li>
+                </ul>
+            <h3 id="repositories-and-issue-trackers">Repositories and Issue Trackers</h3>
+                <ul>
+                    <li>Confluence</li>
+                    <li>Jira</li>
+                </ul>
+        </div>
+    </div>    
+
+    <div id="app-development-tab" class="tabcontent"></div>
+        <div class="rounded-container">
+            <h2 id="application-development">Application Development</h2>
+            <h3 id="web-application-frameworks">Web Application Frameworks</h3>
+                <ul>
+                    <li>JQuery/JQuery UI</li>
+                    <li>Next.js (hobbyist level)</li>
+                    <li>React (hobbyist level)</li>
+                </ul>
+            <h3 id="sample-applications">Sample Applications</h3>
+                <ul>
+                    <li>A JQuery UI application that uploads a file to Edgio&#39;s Storage Platform</li>
+                    <li>A Python application that demonstrates the Log Delivery Service API</li>
+                </ul>
+            <h3 id="automation-tools">Automation Tools</h3>
+                <ul>
+                    <li>A Java FX/Maven application that reads sbt, Gradle, and Maven dependency trees then distills tree data and transforms it into a format easily pasted into a Google sheet</li>
+                    <li>JQuery UI applications that create tables in:
+                        <ul>
+                            <li>Readme.io format.</li>
+                            <li>SiriusXM&#39;s proprietary JSON format.</li>
+                        </ul>
+                    </li>
+                    <li>A MadCap Flare plugin that converts selected text to all upper, all  lower, and title case.</li>
+                    <li>A C#/Jira REST API Application that creates HTML release notes files in Edgio&#39;s standard format. Files can be easily added to a MadCap Flare project.</li>
+                </ul>
+            <h3 id="sample-code">Sample Code</h3>
+                <p>All cURL and Python samples in the <a href="/samples/Origin_Storage_API_Reference_Guide.pdf">Origin Storage API Reference Guide</a></p>
+        </div>
+    </div>
+
+    <div id="key-achievements-tab" class="tabcontent"></div>    
+        <div class="rounded-container">
+            <h2 id="key-achievements">Key Achievements</h2>
+                <ul>
+                    <li>Authored and maintained style guides and processes</li>
+                    <li>Improved documentation access and structure</li>
+                    <li>Created automation tools</li>
+                </ul>
+        </div>
+    </div>
+
+    <div id="education-tab" class="tabcontent"></div>    
+        <div class="rounded-container">
+            <h2 id="education">Education</h2>
+                <ul>
+                    <li><p>University of Colorado at Boulder
+                    Bachelor of Arts: French</p>
+                    </li>
+                    <li><p>University of Pennsylvania Computer Science Certificates Through edX
+                    Software Development Fundamentals,
+                    Data Structures and Software Design
+                    Programming for the Web</p>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+    <div id="prof-reccos-tab" class="tabcontent"></div>    
+        <div class="rounded-container">
+            <h2 id="professional-recommendations">Professional Recommendations</h2>
+                <p><a href="https://www.linkedin.com/in/stevemurphy1/details/recommendations/?detailScreenTabIndex=0">LinkedIn</a></p>
+        </div>
+    </div>
