@@ -10,7 +10,7 @@ function openPage(pageName,elmnt,color) {
       tablinks[i].style.backgroundColor = "";
     }
     document.getElementById(pageName).style.display = "block";
-    elmnt.style.backgroundColor = color;
+    // elmnt.style.backgroundColor = color;
   }
   
   // Get the element with id="defaultOpen" and click on it
