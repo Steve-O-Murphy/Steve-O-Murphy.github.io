@@ -75,17 +75,17 @@ hr {
  ----------------------------------------------------------
  */
 
- * {box-sizing: border-box}
+ /* * {box-sizing: border-box}
 
  /* Set height of body and the document to 100% */
-body, html {
+/* body, html {
     height: 100%;
     margin: 0;
     font-family: Arial;
-  }
+  } */
   
   /* Style tab links */
-.tablink {
+/* .tablink {
     background-color: #555;
     color: white;
     float: left;
@@ -99,13 +99,13 @@ body, html {
   
   .tablink:hover {
     background-color: #777;
-  }
+  } */
   
   /* Style the tab content (and add height:100% for full page content) */
-  .tabcontent {
+  /* .tabcontent {
     color: white;
     display: none;
     padding: 100px 20px;
     height: 100%;
-  }
+  } */ 
   
