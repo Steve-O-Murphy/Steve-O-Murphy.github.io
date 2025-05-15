@@ -46,7 +46,7 @@ div.rounded-container {
 }
 
 div.rounded-container:hover {
-    transition: background-color #f2f2f2;
+    background-color: #f2f2f2;
 }
 
 
