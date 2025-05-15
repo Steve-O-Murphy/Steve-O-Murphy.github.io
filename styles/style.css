@@ -41,5 +41,4 @@ hr {
     padding: 0;
     margin: var(--base-size-24) 0;
     background-color: var(--borderColor-default, var(--color-border-default));
-    border: 0;
 }
