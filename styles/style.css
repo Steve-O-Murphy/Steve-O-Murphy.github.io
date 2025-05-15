@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin-top: var(--base-size-24);
     margin-bottom: var(--base-size-16);
     font-weight: var(--base-text-weight-semibold, 600);
