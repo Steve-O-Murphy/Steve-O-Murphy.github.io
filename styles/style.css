@@ -43,10 +43,16 @@ h3 {
 
 div.rounded-container {
     transition: background-color 0.3s ease;
+    transform: 0.3s ease;
+    box-shadow: 0.3s ease;
+
 }
 
 div.rounded-container:hover {
     background-color: #f2f2f2;
+    transform: translateY(-4px); /* Slight upward lift */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+
 }
 
 
